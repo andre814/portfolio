@@ -1,0 +1,66 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background-color: lightgrey;
+}
+
+.carousel-indicators li.active{
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  background-color: inherit;
+}
+
+#indicatorOne{
+  background-color: #F6511D;
+}
+
+#indicatorTwo{
+  background-color: #00CFFF;
+}
+
+#indicatorThree{
+  background-color: #FFB400;
+}
+
+#indicatorFour{
+  background-color: #7FB800;
+}
+
+#indicatorFive{
+  background-color: #0D2C54;
+}
+
+.navbar{
+	height: 100px;
+	background-color: white !important;
+}
+
+.navbar-brand{
+	font-size: 200%;
+	letter-spacing: 6px;
+}
+
+.navbar-brand, .nav-link{
+	color: black !important;
+}
